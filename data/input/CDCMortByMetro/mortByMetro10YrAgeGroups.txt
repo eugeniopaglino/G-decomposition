@@ -1,0 +1,487 @@
+"Notes"	"2013 Urbanization"	"2013 Urbanization Code"	"Ten-Year Age Groups"	"Ten-Year Age Groups Code"	"Gender"	"Gender Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	3132	638961	490.2
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	2956	622673	474.7
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	2972	607547	489.2
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	4015	668442	600.7
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	3835	651393	588.7
+	"Large Central Metro"	"1"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	3558	635403	560.0
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	442	2505702	17.6
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	446	2490512	17.9
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	490	2453208	20.0
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	641	2621109	24.5
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	627	2605857	24.1
+	"Large Central Metro"	"1"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	587	2565645	22.9
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	604	6124793	9.9
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	697	6116345	11.4
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	605	6090955	9.9
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	898	6365362	14.1
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	871	6361165	13.7
+	"Large Central Metro"	"1"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	871	6340545	13.7
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	2322	6434853	36.1
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	2195	6378470	34.4
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	2148	6327612	33.9
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	6988	6584889	106.1
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	6531	6508992	100.3
+	"Large Central Metro"	"1"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	6590	6436920	102.4
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	5079	8174237	62.1
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	5088	8204480	62.0
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	5113	8221329	62.2
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	12666	8239301	153.7
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	12295	8298380	148.2
+	"Large Central Metro"	"1"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	12844	8334075	154.1
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	8327	6844363	121.7
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	8225	6885813	119.4
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	8487	6924054	122.6
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	14928	6738318	221.5
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	15142	6795806	222.8
+	"Large Central Metro"	"1"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	15683	6849506	229.0
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	18305	6626942	276.2
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	17511	6530771	268.1
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	17127	6439202	266.0
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	29836	6427477	464.2
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	29232	6330208	461.8
+	"Large Central Metro"	"1"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	28423	6229765	456.2
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	39001	6257369	623.3
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	38800	6282686	617.6
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	38243	6295295	607.5
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	60714	5738761	1058.0
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	61551	5783169	1064.3
+	"Large Central Metro"	"1"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	61209	5818606	1052.0
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	56989	4312187	1321.6
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	57758	4432678	1303.0
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	59124	4579765	1291.0
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	74669	3607162	2070.0
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	77118	3709773	2078.8
+	"Large Central Metro"	"1"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	79226	3834404	2066.2
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	80258	2249730	3567.5
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	81763	2331784	3506.5
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	81488	2412375	3377.9
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	79727	1630570	4889.5
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	82211	1700323	4835.0
+	"Large Central Metro"	"1"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	83715	1766476	4739.1
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	141723	1182345	11986.6
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	141398	1188580	11896.4
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	139011	1191319	11668.7
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	85872	629103	13649.9
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	86149	639078	13480.2
+	"Large Central Metro"	"1"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	85761	651063	13172.5
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	14	Not Applicable	Not Applicable
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	15	Not Applicable	Not Applicable
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	31	Not Applicable	Not Applicable
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	26	Not Applicable	Not Applicable
+	"Large Central Metro"	"1"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	30	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	2085	454019	459.2
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	2014	447240	450.3
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	1959	442876	442.3
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	2572	475698	540.7
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	2490	468633	531.3
+	"Large Fringe Metro"	"2"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	2516	464016	542.2
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	367	1907332	19.2
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	373	1914393	19.5
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	315	1906849	16.5
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	464	1991036	23.3
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	471	2001946	23.5
+	"Large Fringe Metro"	"2"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	397	1990950	19.9
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	532	5166718	10.3
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	518	5165316	10.0
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	532	5162182	10.3
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	698	5390102	12.9
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	668	5392233	12.4
+	"Large Fringe Metro"	"2"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	666	5390893	12.4
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	1916	5094352	37.6
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	1918	5088449	37.7
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	1865	5080331	36.7
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	5489	5344678	102.7
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	4900	5319860	92.1
+	"Large Fringe Metro"	"2"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	4858	5305421	91.6
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	4190	5179128	80.9
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	4106	5229539	78.5
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	4031	5269397	76.5
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	10105	5249938	192.5
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	9607	5322247	180.5
+	"Large Fringe Metro"	"2"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	9481	5379563	176.2
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	6332	5310265	119.2
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	6413	5366900	119.5
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	6550	5427821	120.7
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	11298	5170558	218.5
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	11521	5237135	220.0
+	"Large Fringe Metro"	"2"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	11967	5304562	225.6
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	14760	5814452	253.9
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	14127	5711050	247.4
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	13532	5604608	241.4
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	22899	5588418	409.8
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	22093	5492910	402.2
+	"Large Fringe Metro"	"2"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	21778	5399806	403.3
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	32663	5586993	584.6
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	32465	5654178	574.2
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	32661	5711502	571.8
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	48661	5235563	929.4
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	49295	5302135	929.7
+	"Large Fringe Metro"	"2"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	49059	5362106	914.9
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	52085	3906042	1333.4
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	52452	4018039	1305.4
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	53920	4158972	1296.5
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	67740	3406319	1988.7
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	69310	3499702	1980.5
+	"Large Fringe Metro"	"2"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	71106	3621448	1963.5
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	74641	1992577	3746.0
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	76950	2096958	3669.6
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	78934	2188686	3606.5
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	77663	1529132	5078.9
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	80308	1620181	4956.7
+	"Large Fringe Metro"	"2"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	82209	1692839	4856.3
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	133602	1019427	13105.6
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	134865	1029930	13094.6
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	133111	1034999	12861.0
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	81475	548563	14852.4
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	82606	561566	14709.9
+	"Large Fringe Metro"	"2"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	83346	575704	14477.2
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	12	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	16	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	19	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	32	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	62	Not Applicable	Not Applicable
+	"Large Fringe Metro"	"2"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	43	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	2202	402858	546.6
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	2115	392809	538.4
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	2016	386418	521.7
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	2752	422108	652.0
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	2633	411663	639.6
+	"Medium Metro"	"3"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	2649	404810	654.4
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	364	1648940	22.1
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	344	1642189	20.9
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	352	1626825	21.6
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	486	1728766	28.1
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	492	1722245	28.6
+	"Medium Metro"	"3"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	447	1702382	26.3
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	484	4260014	11.4
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	504	4266275	11.8
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	520	4264341	12.2
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	757	4447801	17.0
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	669	4455711	15.0
+	"Medium Metro"	"3"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	693	4457429	15.5
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	1907	4637363	41.1
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	1793	4628723	38.7
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	1711	4612754	37.1
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	5161	4858635	106.2
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	4861	4834445	100.5
+	"Medium Metro"	"3"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	4753	4808462	98.8
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	4121	4517073	91.2
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	4137	4553414	90.9
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	4080	4585429	89.0
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	9119	4651961	196.0
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	9024	4704587	191.8
+	"Medium Metro"	"3"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	9077	4744764	191.3
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	6433	4119190	156.2
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	6439	4168281	154.5
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	6377	4216955	151.2
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	11168	4070894	274.3
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	11236	4127027	272.3
+	"Medium Metro"	"3"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	11582	4180715	277.0
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	14601	4343786	336.1
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	14080	4274429	329.4
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	13582	4198206	323.5
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	22474	4194223	535.8
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	21789	4125864	528.1
+	"Medium Metro"	"3"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	21607	4056645	532.6
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	32168	4551037	706.8
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	32217	4582142	703.1
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	32488	4600746	706.1
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	49311	4191445	1176.5
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	49952	4218426	1184.1
+	"Medium Metro"	"3"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	50137	4236947	1183.3
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	50035	3420095	1463.0
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	51011	3524099	1447.5
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	51417	3648847	1409.1
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	67006	3014609	2222.7
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	68889	3099079	2222.9
+	"Medium Metro"	"3"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	70601	3198848	2207.1
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	70052	1788539	3916.7
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	71311	1874791	3803.7
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	72966	1947293	3747.0
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	73152	1399775	5226.0
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	75784	1478439	5125.9
+	"Medium Metro"	"3"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	77818	1541709	5047.5
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	117845	891382	13220.5
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	117541	900726	13049.6
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	116405	903016	12890.7
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	73113	495569	14753.3
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	73855	507489	14553.0
+	"Medium Metro"	"3"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	74316	518298	14338.5
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	11	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	10	Not Applicable	Not Applicable
+	"Medium Metro"	"3"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	12	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	900	171663	524.3
+	"Small Metro"	"4"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	879	167177	525.8
+	"Small Metro"	"4"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	876	164847	531.4
+	"Small Metro"	"4"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	1236	179865	687.2
+	"Small Metro"	"4"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	1229	175133	701.8
+	"Small Metro"	"4"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	1162	172694	672.9
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	161	698315	23.1
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	141	697437	20.2
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	169	689482	24.5
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	234	731449	32.0
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	222	730950	30.4
+	"Small Metro"	"4"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	218	722679	30.2
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	232	1781159	13.0
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	252	1785142	14.1
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	238	1782569	13.4
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	326	1860500	17.5
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	303	1865259	16.2
+	"Small Metro"	"4"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	344	1865016	18.4
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	877	2108415	41.6
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	837	2102802	39.8
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	827	2088171	39.6
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	2194	2255480	97.3
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	2129	2240749	95.0
+	"Small Metro"	"4"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	2077	2219742	93.6
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	1802	1883635	95.7
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	1722	1894393	90.9
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	1664	1897028	87.7
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	3805	1994843	190.7
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	3861	2010555	192.0
+	"Small Metro"	"4"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	3793	2013287	188.4
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	2866	1692982	169.3
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	2937	1717125	171.0
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	3019	1736857	173.8
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	4846	1720006	281.7
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	4972	1744261	285.0
+	"Small Metro"	"4"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	5162	1764048	292.6
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	6617	1806867	366.2
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	6413	1772045	361.9
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	6223	1733275	359.0
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	10186	1771029	575.1
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	9887	1737429	569.1
+	"Small Metro"	"4"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	9628	1702363	565.6
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	15011	2005772	748.4
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	15284	2016205	758.1
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	15309	2015817	759.4
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	22869	1863435	1227.2
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	23844	1872018	1273.7
+	"Small Metro"	"4"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	23485	1872271	1254.4
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	24175	1557441	1552.2
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	24294	1603819	1514.8
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	24869	1656602	1501.2
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	32371	1400101	2312.0
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	33805	1437580	2351.5
+	"Small Metro"	"4"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	34255	1481813	2311.7
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	34157	834471	4093.3
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	34944	871833	4008.1
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	35641	901782	3952.3
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	36778	668441	5502.1
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	37982	703869	5396.2
+	"Small Metro"	"4"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	38738	728795	5315.3
+	"Small Metro"	"4"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	54792	404197	13555.8
+	"Small Metro"	"4"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	54802	406898	13468.2
+	"Small Metro"	"4"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	53659	407341	13173.0
+	"Small Metro"	"4"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	34833	227024	15343.3
+	"Small Metro"	"4"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	34842	232202	15005.0
+	"Small Metro"	"4"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	35073	237544	14764.8
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Small Metro"	"4"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	15	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	883	155181	569.0
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	837	150930	554.6
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	860	148695	578.4
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	1125	162584	692.0
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	1128	158036	713.8
+	"Micropolitan (Nonmetro)"	"5"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	1100	155856	705.8
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	170	636408	26.7
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	156	633989	24.6
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	187	627829	29.8
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	243	665903	36.5
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	244	661772	36.9
+	"Micropolitan (Nonmetro)"	"5"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	218	655266	33.3
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	257	1654121	15.5
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	213	1650078	12.9
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	239	1642944	14.5
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	341	1731521	19.7
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	333	1728127	19.3
+	"Micropolitan (Nonmetro)"	"5"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	331	1721398	19.2
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	858	1781709	48.2
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	817	1764849	46.3
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	814	1749929	46.5
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	2142	1934149	110.7
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	2076	1914313	108.4
+	"Micropolitan (Nonmetro)"	"5"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	2002	1896775	105.5
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	1661	1597975	103.9
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	1790	1602023	111.7
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	1791	1605428	111.6
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	3773	1735987	217.3
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	3576	1747630	204.6
+	"Micropolitan (Nonmetro)"	"5"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	3630	1756556	206.7
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	2942	1526632	192.7
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	2907	1537135	189.1
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	2992	1544649	193.7
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	5033	1588155	316.9
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	4918	1599056	307.6
+	"Micropolitan (Nonmetro)"	"5"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	5229	1608397	325.1
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	6860	1696441	404.4
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	6637	1655601	400.9
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	6468	1614602	400.6
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	10595	1713156	618.4
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	10339	1674063	617.6
+	"Micropolitan (Nonmetro)"	"5"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	9981	1635384	610.3
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	15701	1927274	814.7
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	15821	1928704	820.3
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	16085	1922801	836.5
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	24641	1844119	1336.2
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	24449	1842818	1326.7
+	"Micropolitan (Nonmetro)"	"5"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	24858	1836868	1353.3
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	25127	1483721	1693.5
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	25654	1519387	1688.4
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	26126	1563295	1671.2
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	34229	1370578	2497.4
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	35363	1402254	2521.9
+	"Micropolitan (Nonmetro)"	"5"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	36052	1440642	2502.5
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	34675	802575	4320.5
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	35271	832829	4235.1
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	35984	855864	4204.4
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	37959	647380	5863.5
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	39077	677948	5764.0
+	"Micropolitan (Nonmetro)"	"5"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	40024	699215	5724.1
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	54577	392683	13898.5
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	54034	393301	13738.6
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	53667	392070	13688.1
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	33717	212593	15859.9
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	34067	215662	15796.5
+	"Micropolitan (Nonmetro)"	"5"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	33705	219959	15323.3
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"Micropolitan (Nonmetro)"	"5"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Female"	"F"	"2017"	"2017"	665	101463	655.4
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Female"	"F"	"2018"	"2018"	598	98874	604.8
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Female"	"F"	"2019"	"2019"	564	97552	578.2
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Male"	"M"	"2017"	"2017"	768	106453	721.4
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Male"	"M"	"2018"	"2018"	753	103647	726.5
+	"NonCore (Nonmetro)"	"6"	"< 1 year"	"1"	"Male"	"M"	"2019"	"2019"	689	102338	673.3
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Female"	"F"	"2017"	"2017"	144	422050	34.1
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Female"	"F"	"2018"	"2018"	127	419850	30.2
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Female"	"F"	"2019"	"2019"	122	415348	29.4
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Male"	"M"	"2017"	"2017"	164	442555	37.1
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Male"	"M"	"2018"	"2018"	187	440927	42.4
+	"NonCore (Nonmetro)"	"6"	"1-4 years"	"1-4"	"Male"	"M"	"2019"	"2019"	174	437168	39.8
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Female"	"F"	"2017"	"2017"	193	1122674	17.2
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Female"	"F"	"2018"	"2018"	185	1117183	16.6
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Female"	"F"	"2019"	"2019"	177	1110149	15.9
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Male"	"M"	"2017"	"2017"	249	1177927	21.1
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Male"	"M"	"2018"	"2018"	237	1172335	20.2
+	"NonCore (Nonmetro)"	"6"	"5-14 years"	"5-14"	"Male"	"M"	"2019"	"2019"	281	1165742	24.1
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Female"	"F"	"2017"	"2017"	642	1043970	61.5
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Female"	"F"	"2018"	"2018"	586	1031052	56.8
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Female"	"F"	"2019"	"2019"	658	1018354	64.6
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Male"	"M"	"2017"	"2017"	1529	1171802	130.5
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Male"	"M"	"2018"	"2018"	1511	1158096	130.5
+	"NonCore (Nonmetro)"	"6"	"15-24 years"	"15-24"	"Male"	"M"	"2019"	"2019"	1468	1143039	128.4
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Female"	"F"	"2017"	"2017"	1213	999263	121.4
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Female"	"F"	"2018"	"2018"	1137	1003216	113.3
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Female"	"F"	"2019"	"2019"	1148	1002530	114.5
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Male"	"M"	"2017"	"2017"	2681	1119331	239.5
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Male"	"M"	"2018"	"2018"	2501	1127310	221.9
+	"NonCore (Nonmetro)"	"6"	"25-34 years"	"25-34"	"Male"	"M"	"2019"	"2019"	2526	1130935	223.4
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Female"	"F"	"2017"	"2017"	2104	1012838	207.7
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Female"	"F"	"2018"	"2018"	2083	1015034	205.2
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Female"	"F"	"2019"	"2019"	2125	1016728	209.0
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Male"	"M"	"2017"	"2017"	3519	1081169	325.5
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Male"	"M"	"2018"	"2018"	3587	1084315	330.8
+	"NonCore (Nonmetro)"	"6"	"35-44 years"	"35-44"	"Male"	"M"	"2019"	"2019"	3813	1084852	351.5
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Female"	"F"	"2017"	"2017"	5195	1180107	440.2
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Female"	"F"	"2018"	"2018"	5039	1146601	439.5
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Female"	"F"	"2019"	"2019"	4614	1113043	414.5
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Male"	"M"	"2017"	"2017"	7814	1212054	644.7
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Male"	"M"	"2018"	"2018"	7690	1180728	651.3
+	"NonCore (Nonmetro)"	"6"	"45-54 years"	"45-54"	"Male"	"M"	"2019"	"2019"	7430	1148003	647.2
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Female"	"F"	"2017"	"2017"	12127	1409410	860.4
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Female"	"F"	"2018"	"2018"	11976	1409858	849.4
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Female"	"F"	"2019"	"2019"	12226	1403157	871.3
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Male"	"M"	"2017"	"2017"	19139	1384480	1382.4
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Male"	"M"	"2018"	"2018"	19182	1380297	1389.7
+	"NonCore (Nonmetro)"	"6"	"55-64 years"	"55-64"	"Male"	"M"	"2019"	"2019"	19177	1372421	1397.3
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Female"	"F"	"2017"	"2017"	19268	1126820	1709.9
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Female"	"F"	"2018"	"2018"	19698	1148209	1715.5
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Female"	"F"	"2019"	"2019"	19856	1176373	1687.9
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Male"	"M"	"2017"	"2017"	27916	1078371	2588.7
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Male"	"M"	"2018"	"2018"	28426	1097697	2589.6
+	"NonCore (Nonmetro)"	"6"	"65-74 years"	"65-74"	"Male"	"M"	"2019"	"2019"	29007	1122424	2584.3
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Female"	"F"	"2017"	"2017"	27305	630784	4328.7
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Female"	"F"	"2018"	"2018"	27778	651139	4266.1
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Female"	"F"	"2019"	"2019"	27914	665649	4193.5
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Male"	"M"	"2017"	"2017"	31392	532577	5894.4
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Male"	"M"	"2018"	"2018"	31826	554280	5741.9
+	"NonCore (Nonmetro)"	"6"	"75-84 years"	"75-84"	"Male"	"M"	"2019"	"2019"	32596	569189	5726.7
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Female"	"F"	"2017"	"2017"	40630	298979	13589.6
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Female"	"F"	"2018"	"2018"	40322	299375	13468.7
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Female"	"F"	"2019"	"2019"	39728	299725	13254.8
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Male"	"M"	"2017"	"2017"	25856	166817	15499.6
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Male"	"M"	"2018"	"2018"	25799	169696	15203.1
+	"NonCore (Nonmetro)"	"6"	"85+ years"	"85+"	"Male"	"M"	"2019"	"2019"	25964	173920	14928.7
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Female"	"F"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Female"	"F"	"2018"	"2018"	0	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Female"	"F"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Male"	"M"	"2017"	"2017"	Suppressed	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Male"	"M"	"2018"	"2018"	Suppressed	Not Applicable	Not Applicable
+	"NonCore (Nonmetro)"	"6"	"Not Stated"	"NS"	"Male"	"M"	"2019"	"2019"	Suppressed	Not Applicable	Not Applicable
+"---"
+"Dataset: Multiple Cause of Death, 1999-2020"
+"Query Parameters:"
+"Year/Month: 2017; 2018; 2019"
+"Group By: 2013 Urbanization; Ten-Year Age Groups; Gender; Year"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information."
+"---"
+"Query Date: Sep 5, 2023 12:19:50 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files,"
+"1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10.html on Sep 5, 2023 12:19:50 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Unreliable."
+"3. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Not Stated."
+"4. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. Population figures for 2011 are bridged-race estimates of the July 1"
+"resident population, from the county-level postcensal Vintage 2011 series released by NCHS on July 18, 2012. Population figures"
+"for 2010 are April 1 Census counts. The population figures for years 2001 - 2009, are bridged-race estimates of the July 1"
+"resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012."
+"Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of"
+"July 1 estimates. Population figures for Infant Age Groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd.html#Age Group."

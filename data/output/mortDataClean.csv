@@ -1,0 +1,685 @@
+urbanization,ageGroup,startAge,sex,year,deaths,pop
+Large Central Metro,1,0,Female,2017,3132,638961
+Large Central Metro,1-4,1,Female,2017,442,2505702
+Large Central Metro,5-9,5,Female,2017,278,3073065
+Large Central Metro,10-14,10,Female,2017,326,3051728
+Large Central Metro,15-19,15,Female,2017,777,3064619
+Large Central Metro,20-24,20,Female,2017,1545,3370234
+Large Central Metro,25-29,25,Female,2017,2250,4251482
+Large Central Metro,30-34,30,Female,2017,2829,3922755
+Large Central Metro,35-39,35,Female,2017,3709,3586562
+Large Central Metro,40-44,40,Female,2017,4618,3257801
+Large Central Metro,45-49,45,Female,2017,7158,3345724
+Large Central Metro,50-54,50,Female,2017,11147,3281218
+Large Central Metro,55-59,55,Female,2017,16889,3288456
+Large Central Metro,60-64,60,Female,2017,22112,2968913
+Large Central Metro,65-69,65,Female,2017,26527,2461683
+Large Central Metro,70-74,70,Female,2017,30462,1850504
+Large Central Metro,75-79,75,Female,2017,35528,1304361
+Large Central Metro,80-84,80,Female,2017,44730,945369
+Large Central Metro,85+,85,Female,2017,141723,1182345
+Large Central Metro,1,0,Female,2018,2956,622673
+Large Central Metro,1-4,1,Female,2018,446,2490512
+Large Central Metro,5-9,5,Female,2018,327,3053904
+Large Central Metro,10-14,10,Female,2018,370,3062441
+Large Central Metro,15-19,15,Female,2018,769,3055099
+Large Central Metro,20-24,20,Female,2018,1426,3323371
+Large Central Metro,25-29,25,Female,2018,2256,4246348
+Large Central Metro,30-34,30,Female,2018,2832,3958132
+Large Central Metro,35-39,35,Female,2018,3757,3632535
+Large Central Metro,40-44,40,Female,2018,4468,3253278
+Large Central Metro,45-49,45,Female,2018,7005,3317180
+Large Central Metro,50-54,50,Female,2018,10506,3213591
+Large Central Metro,55-59,55,Female,2018,16620,3274778
+Large Central Metro,60-64,60,Female,2018,22180,3007908
+Large Central Metro,65-69,65,Female,2018,26525,2500080
+Large Central Metro,70-74,70,Female,2018,31233,1932598
+Large Central Metro,75-79,75,Female,2018,36929,1367810
+Large Central Metro,80-84,80,Female,2018,44834,963974
+Large Central Metro,85+,85,Female,2018,141398,1188580
+Large Central Metro,1,0,Female,2019,2972,607547
+Large Central Metro,1-4,1,Female,2019,490,2453208
+Large Central Metro,5-9,5,Female,2019,291,3045425
+Large Central Metro,10-14,10,Female,2019,314,3045530
+Large Central Metro,15-19,15,Female,2019,730,3050846
+Large Central Metro,20-24,20,Female,2019,1418,3276766
+Large Central Metro,25-29,25,Female,2019,2177,4208023
+Large Central Metro,30-34,30,Female,2019,2936,4013306
+Large Central Metro,35-39,35,Female,2019,3826,3655614
+Large Central Metro,40-44,40,Female,2019,4661,3268440
+Large Central Metro,45-49,45,Female,2019,6897,3272648
+Large Central Metro,50-54,50,Female,2019,10230,3166554
+Large Central Metro,55-59,55,Female,2019,15989,3262888
+Large Central Metro,60-64,60,Female,2019,22254,3032407
+Large Central Metro,65-69,65,Female,2019,26647,2553163
+Large Central Metro,70-74,70,Female,2019,32477,2026602
+Large Central Metro,75-79,75,Female,2019,37220,1420720
+Large Central Metro,80-84,80,Female,2019,44268,991655
+Large Central Metro,85+,85,Female,2019,139011,1191319
+Large Central Metro,1,0,Male,2017,4015,668442
+Large Central Metro,1-4,1,Male,2017,641,2621109
+Large Central Metro,5-9,5,Male,2017,365,3198978
+Large Central Metro,10-14,10,Male,2017,533,3166384
+Large Central Metro,15-19,15,Male,2017,2289,3163053
+Large Central Metro,20-24,20,Male,2017,4699,3421836
+Large Central Metro,25-29,25,Male,2017,6213,4275375
+Large Central Metro,30-34,30,Male,2017,6453,3963926
+Large Central Metro,35-39,35,Male,2017,7051,3563107
+Large Central Metro,40-44,40,Male,2017,7877,3175211
+Large Central Metro,45-49,45,Male,2017,11719,3261016
+Large Central Metro,50-54,50,Male,2017,18117,3166461
+Large Central Metro,55-59,55,Male,2017,26977,3084922
+Large Central Metro,60-64,60,Male,2017,33737,2653839
+Large Central Metro,65-69,65,Male,2017,36652,2097967
+Large Central Metro,70-74,70,Male,2017,38017,1509195
+Large Central Metro,75-79,75,Male,2017,38349,983467
+Large Central Metro,80-84,80,Male,2017,41378,647103
+Large Central Metro,85+,85,Male,2017,85872,629103
+Large Central Metro,1,0,Male,2018,3835,651393
+Large Central Metro,1-4,1,Male,2018,627,2605857
+Large Central Metro,5-9,5,Male,2018,374,3180178
+Large Central Metro,10-14,10,Male,2018,497,3180987
+Large Central Metro,15-19,15,Male,2018,2124,3150084
+Large Central Metro,20-24,20,Male,2018,4407,3358908
+Large Central Metro,25-29,25,Male,2018,5992,4282553
+Large Central Metro,30-34,30,Male,2018,6303,4015827
+Large Central Metro,35-39,35,Male,2018,7190,3620791
+Large Central Metro,40-44,40,Male,2018,7952,3175015
+Large Central Metro,45-49,45,Male,2018,11778,3221373
+Large Central Metro,50-54,50,Male,2018,17454,3108835
+Large Central Metro,55-59,55,Male,2018,26952,3080760
+Large Central Metro,60-64,60,Male,2018,34599,2702409
+Large Central Metro,65-69,65,Male,2018,37514,2129195
+Large Central Metro,70-74,70,Male,2018,39604,1580578
+Large Central Metro,75-79,75,Male,2018,40284,1036201
+Large Central Metro,80-84,80,Male,2018,41927,664122
+Large Central Metro,85+,85,Male,2018,86149,639078
+Large Central Metro,1,0,Male,2019,3558,635403
+Large Central Metro,1-4,1,Male,2019,587,2565645
+Large Central Metro,5-9,5,Male,2019,377,3174341
+Large Central Metro,10-14,10,Male,2019,494,3166204
+Large Central Metro,15-19,15,Male,2019,2168,3140707
+Large Central Metro,20-24,20,Male,2019,4422,3296213
+Large Central Metro,25-29,25,Male,2019,6095,4249401
+Large Central Metro,30-34,30,Male,2019,6749,4084674
+Large Central Metro,35-39,35,Male,2019,7413,3654737
+Large Central Metro,40-44,40,Male,2019,8270,3194769
+Large Central Metro,45-49,45,Male,2019,11416,3164763
+Large Central Metro,50-54,50,Male,2019,17007,3065002
+Large Central Metro,55-59,55,Male,2019,26484,3079712
+Large Central Metro,60-64,60,Male,2019,34725,2738894
+Large Central Metro,65-69,65,Male,2019,38275,2176428
+Large Central Metro,70-74,70,Male,2019,40951,1657976
+Large Central Metro,75-79,75,Male,2019,41195,1079094
+Large Central Metro,80-84,80,Male,2019,42520,687382
+Large Central Metro,85+,85,Male,2019,85761,651063
+Large Fringe Metro,1,0,Female,2017,2085,454019
+Large Fringe Metro,1-4,1,Female,2017,367,1907332
+Large Fringe Metro,5-9,5,Female,2017,258,2507429
+Large Fringe Metro,10-14,10,Female,2017,274,2659289
+Large Fringe Metro,15-19,15,Female,2017,687,2609557
+Large Fringe Metro,20-24,20,Female,2017,1229,2484795
+Large Fringe Metro,25-29,25,Female,2017,1824,2562019
+Large Fringe Metro,30-34,30,Female,2017,2366,2617109
+Large Fringe Metro,35-39,35,Female,2017,2852,2707985
+Large Fringe Metro,40-44,40,Female,2017,3480,2602280
+Large Fringe Metro,45-49,45,Female,2017,5725,2866469
+Large Fringe Metro,50-54,50,Female,2017,9035,2947983
+Large Fringe Metro,55-59,55,Female,2017,14386,2966437
+Large Fringe Metro,60-64,60,Female,2017,18277,2620556
+Large Fringe Metro,65-69,65,Female,2017,23022,2200330
+Large Fringe Metro,70-74,70,Female,2017,29063,1705712
+Large Fringe Metro,75-79,75,Female,2017,33097,1167398
+Large Fringe Metro,80-84,80,Female,2017,41544,825179
+Large Fringe Metro,85+,85,Female,2017,133602,1019427
+Large Fringe Metro,1,0,Female,2018,2014,447240
+Large Fringe Metro,1-4,1,Female,2018,373,1914393
+Large Fringe Metro,5-9,5,Female,2018,222,2498544
+Large Fringe Metro,10-14,10,Female,2018,296,2666772
+Large Fringe Metro,15-19,15,Female,2018,681,2614351
+Large Fringe Metro,20-24,20,Female,2018,1237,2474098
+Large Fringe Metro,25-29,25,Female,2018,1790,2599082
+Large Fringe Metro,30-34,30,Female,2018,2316,2630457
+Large Fringe Metro,35-39,35,Female,2018,2904,2753979
+Large Fringe Metro,40-44,40,Female,2018,3509,2612921
+Large Fringe Metro,45-49,45,Female,2018,5448,2828741
+Large Fringe Metro,50-54,50,Female,2018,8679,2882309
+Large Fringe Metro,55-59,55,Female,2018,13991,2971299
+Large Fringe Metro,60-64,60,Female,2018,18474,2682879
+Large Fringe Metro,65-69,65,Female,2018,22876,2236146
+Large Fringe Metro,70-74,70,Female,2018,29576,1781893
+Large Fringe Metro,75-79,75,Female,2018,35013,1249328
+Large Fringe Metro,80-84,80,Female,2018,41937,847630
+Large Fringe Metro,85+,85,Female,2018,134865,1029930
+Large Fringe Metro,1,0,Female,2019,1959,442876
+Large Fringe Metro,1-4,1,Female,2019,315,1906849
+Large Fringe Metro,5-9,5,Female,2019,226,2507047
+Large Fringe Metro,10-14,10,Female,2019,306,2655135
+Large Fringe Metro,15-19,15,Female,2019,668,2619308
+Large Fringe Metro,20-24,20,Female,2019,1197,2461023
+Large Fringe Metro,25-29,25,Female,2019,1711,2610599
+Large Fringe Metro,30-34,30,Female,2019,2320,2658798
+Large Fringe Metro,35-39,35,Female,2019,3010,2781509
+Large Fringe Metro,40-44,40,Female,2019,3540,2646312
+Large Fringe Metro,45-49,45,Female,2019,5227,2776002
+Large Fringe Metro,50-54,50,Female,2019,8305,2828606
+Large Fringe Metro,55-59,55,Female,2019,13762,2979335
+Large Fringe Metro,60-64,60,Female,2019,18899,2732167
+Large Fringe Metro,65-69,65,Female,2019,23183,2290417
+Large Fringe Metro,70-74,70,Female,2019,30737,1868555
+Large Fringe Metro,75-79,75,Female,2019,36131,1311498
+Large Fringe Metro,80-84,80,Female,2019,42803,877188
+Large Fringe Metro,85+,85,Female,2019,133111,1034999
+Large Fringe Metro,1,0,Male,2017,2572,475698
+Large Fringe Metro,1-4,1,Male,2017,464,1991036
+Large Fringe Metro,5-9,5,Male,2017,280,2617720
+Large Fringe Metro,10-14,10,Male,2017,418,2772382
+Large Fringe Metro,15-19,15,Male,2017,1794,2748061
+Large Fringe Metro,20-24,20,Male,2017,3695,2596617
+Large Fringe Metro,25-29,25,Male,2017,4987,2645508
+Large Fringe Metro,30-34,30,Male,2017,5118,2604430
+Large Fringe Metro,35-39,35,Male,2017,5529,2647012
+Large Fringe Metro,40-44,40,Male,2017,5769,2523546
+Large Fringe Metro,45-49,45,Male,2017,8973,2765798
+Large Fringe Metro,50-54,50,Male,2017,13926,2822620
+Large Fringe Metro,55-59,55,Male,2017,21195,2816745
+Large Fringe Metro,60-64,60,Male,2017,27466,2418818
+Large Fringe Metro,65-69,65,Male,2017,31692,1947562
+Large Fringe Metro,70-74,70,Male,2017,36048,1458757
+Large Fringe Metro,75-79,75,Male,2017,37503,935568
+Large Fringe Metro,80-84,80,Male,2017,40160,593564
+Large Fringe Metro,85+,85,Male,2017,81475,548563
+Large Fringe Metro,1,0,Male,2018,2490,468633
+Large Fringe Metro,1-4,1,Male,2018,471,2001946
+Large Fringe Metro,5-9,5,Male,2018,269,2610913
+Large Fringe Metro,10-14,10,Male,2018,399,2781320
+Large Fringe Metro,15-19,15,Male,2018,1555,2745652
+Large Fringe Metro,20-24,20,Male,2018,3345,2574208
+Large Fringe Metro,25-29,25,Male,2018,4604,2692411
+Large Fringe Metro,30-34,30,Male,2018,5003,2629836
+Large Fringe Metro,35-39,35,Male,2018,5569,2696650
+Large Fringe Metro,40-44,40,Male,2018,5952,2540485
+Large Fringe Metro,45-49,45,Male,2018,8633,2730893
+Large Fringe Metro,50-54,50,Male,2018,13460,2762017
+Large Fringe Metro,55-59,55,Male,2018,21436,2821428
+Large Fringe Metro,60-64,60,Male,2018,27859,2480707
+Large Fringe Metro,65-69,65,Male,2018,32408,1975359
+Large Fringe Metro,70-74,70,Male,2018,36902,1524343
+Large Fringe Metro,75-79,75,Male,2018,39586,1005265
+Large Fringe Metro,80-84,80,Male,2018,40722,614916
+Large Fringe Metro,85+,85,Male,2018,82606,561566
+Large Fringe Metro,1,0,Male,2019,2516,464016
+Large Fringe Metro,1-4,1,Male,2019,397,1990950
+Large Fringe Metro,5-9,5,Male,2019,258,2621167
+Large Fringe Metro,10-14,10,Male,2019,408,2769726
+Large Fringe Metro,15-19,15,Male,2019,1608,2744915
+Large Fringe Metro,20-24,20,Male,2019,3250,2560506
+Large Fringe Metro,25-29,25,Male,2019,4533,2710647
+Large Fringe Metro,30-34,30,Male,2019,4948,2668916
+Large Fringe Metro,35-39,35,Male,2019,5738,2728114
+Large Fringe Metro,40-44,40,Male,2019,6229,2576448
+Large Fringe Metro,45-49,45,Male,2019,8600,2684500
+Large Fringe Metro,50-54,50,Male,2019,13178,2715306
+Large Fringe Metro,55-59,55,Male,2019,20930,2829038
+Large Fringe Metro,60-64,60,Male,2019,28129,2533068
+Large Fringe Metro,65-69,65,Male,2019,32843,2024909
+Large Fringe Metro,70-74,70,Male,2019,38263,1596539
+Large Fringe Metro,75-79,75,Male,2019,40582,1053436
+Large Fringe Metro,80-84,80,Male,2019,41627,639403
+Large Fringe Metro,85+,85,Male,2019,83346,575704
+Medium Metro,1,0,Female,2017,2202,402858
+Medium Metro,1-4,1,Female,2017,364,1648940
+Medium Metro,5-9,5,Female,2017,223,2108343
+Medium Metro,10-14,10,Female,2017,261,2151671
+Medium Metro,15-19,15,Female,2017,668,2243036
+Medium Metro,20-24,20,Female,2017,1239,2394327
+Medium Metro,25-29,25,Female,2017,1795,2337862
+Medium Metro,30-34,30,Female,2017,2326,2179211
+Medium Metro,35-39,35,Female,2017,2819,2137485
+Medium Metro,40-44,40,Female,2017,3614,1981705
+Medium Metro,45-49,45,Female,2017,5560,2131104
+Medium Metro,50-54,50,Female,2017,9041,2212682
+Medium Metro,55-59,55,Female,2017,14008,2345319
+Medium Metro,60-64,60,Female,2017,18160,2205718
+Medium Metro,65-69,65,Female,2017,22631,1920004
+Medium Metro,70-74,70,Female,2017,27404,1500091
+Medium Metro,75-79,75,Female,2017,31512,1044138
+Medium Metro,80-84,80,Female,2017,38540,744401
+Medium Metro,85+,85,Female,2017,117845,891382
+Medium Metro,1,0,Female,2018,2115,392809
+Medium Metro,1-4,1,Female,2018,344,1642189
+Medium Metro,5-9,5,Female,2018,213,2098799
+Medium Metro,10-14,10,Female,2018,291,2167476
+Medium Metro,15-19,15,Female,2018,679,2247367
+Medium Metro,20-24,20,Female,2018,1114,2381356
+Medium Metro,25-29,25,Female,2018,1777,2360396
+Medium Metro,30-34,30,Female,2018,2360,2193018
+Medium Metro,35-39,35,Female,2018,2933,2174197
+Medium Metro,40-44,40,Female,2018,3506,1994084
+Medium Metro,45-49,45,Female,2018,5482,2116971
+Medium Metro,50-54,50,Female,2018,8598,2157458
+Medium Metro,55-59,55,Female,2018,13686,2339616
+Medium Metro,60-64,60,Female,2018,18531,2242526
+Medium Metro,65-69,65,Female,2018,22694,1954410
+Medium Metro,70-74,70,Female,2018,28317,1569689
+Medium Metro,75-79,75,Female,2018,32405,1111536
+Medium Metro,80-84,80,Female,2018,38906,763255
+Medium Metro,85+,85,Female,2018,117541,900726
+Medium Metro,1,0,Female,2019,2016,386418
+Medium Metro,1-4,1,Female,2019,352,1626825
+Medium Metro,5-9,5,Female,2019,237,2099792
+Medium Metro,10-14,10,Female,2019,283,2164549
+Medium Metro,15-19,15,Female,2019,597,2246641
+Medium Metro,20-24,20,Female,2019,1114,2366113
+Medium Metro,25-29,25,Female,2019,1720,2360679
+Medium Metro,30-34,30,Female,2019,2360,2224750
+Medium Metro,35-39,35,Female,2019,2966,2195374
+Medium Metro,40-44,40,Female,2019,3411,2021581
+Medium Metro,45-49,45,Female,2019,5430,2084368
+Medium Metro,50-54,50,Female,2019,8152,2113838
+Medium Metro,55-59,55,Female,2019,13574,2333761
+Medium Metro,60-64,60,Female,2019,18914,2266985
+Medium Metro,65-69,65,Female,2019,22525,2001233
+Medium Metro,70-74,70,Female,2019,28892,1647614
+Medium Metro,75-79,75,Female,2019,33619,1162513
+Medium Metro,80-84,80,Female,2019,39347,784780
+Medium Metro,85+,85,Female,2019,116405,903016
+Medium Metro,1,0,Male,2017,2752,422108
+Medium Metro,1-4,1,Male,2017,486,1728766
+Medium Metro,5-9,5,Male,2017,291,2199853
+Medium Metro,10-14,10,Male,2017,466,2247948
+Medium Metro,15-19,15,Male,2017,1678,2329008
+Medium Metro,20-24,20,Male,2017,3483,2529627
+Medium Metro,25-29,25,Male,2017,4306,2437936
+Medium Metro,30-34,30,Male,2017,4813,2214025
+Medium Metro,35-39,35,Male,2017,5320,2128214
+Medium Metro,40-44,40,Male,2017,5848,1942680
+Medium Metro,45-49,45,Male,2017,8684,2077609
+Medium Metro,50-54,50,Male,2017,13790,2116614
+Medium Metro,55-59,55,Male,2017,21504,2192646
+Medium Metro,60-64,60,Male,2017,27807,1998799
+Medium Metro,65-69,65,Male,2017,32076,1706576
+Medium Metro,70-74,70,Male,2017,34930,1308033
+Medium Metro,75-79,75,Male,2017,35469,851250
+Medium Metro,80-84,80,Male,2017,37683,548525
+Medium Metro,85+,85,Male,2017,73113,495569
+Medium Metro,1,0,Male,2018,2633,411663
+Medium Metro,1-4,1,Male,2018,492,1722245
+Medium Metro,5-9,5,Male,2018,260,2191922
+Medium Metro,10-14,10,Male,2018,409,2263789
+Medium Metro,15-19,15,Male,2018,1668,2330998
+Medium Metro,20-24,20,Male,2018,3193,2503447
+Medium Metro,25-29,25,Male,2018,4304,2470909
+Medium Metro,30-34,30,Male,2018,4720,2233678
+Medium Metro,35-39,35,Male,2018,5383,2167923
+Medium Metro,40-44,40,Male,2018,5853,1959104
+Medium Metro,45-49,45,Male,2018,8827,2057801
+Medium Metro,50-54,50,Male,2018,12962,2068063
+Medium Metro,55-59,55,Male,2018,21330,2185442
+Medium Metro,60-64,60,Male,2018,28622,2032984
+Medium Metro,65-69,65,Male,2018,32560,1730136
+Medium Metro,70-74,70,Male,2018,36329,1368943
+Medium Metro,75-79,75,Male,2018,37706,911560
+Medium Metro,80-84,80,Male,2018,38078,566879
+Medium Metro,85+,85,Male,2018,73855,507489
+Medium Metro,1,0,Male,2019,2649,404810
+Medium Metro,1-4,1,Male,2019,447,1702382
+Medium Metro,5-9,5,Male,2019,278,2197842
+Medium Metro,10-14,10,Male,2019,415,2259587
+Medium Metro,15-19,15,Male,2019,1643,2328072
+Medium Metro,20-24,20,Male,2019,3110,2480390
+Medium Metro,25-29,25,Male,2019,4240,2478112
+Medium Metro,30-34,30,Male,2019,4837,2266652
+Medium Metro,35-39,35,Male,2019,5526,2191714
+Medium Metro,40-44,40,Male,2019,6056,1989001
+Medium Metro,45-49,45,Male,2019,8620,2025123
+Medium Metro,50-54,50,Male,2019,12987,2031522
+Medium Metro,55-59,55,Male,2019,21389,2177603
+Medium Metro,60-64,60,Male,2019,28748,2059344
+Medium Metro,65-69,65,Male,2019,33354,1763649
+Medium Metro,70-74,70,Male,2019,37247,1435199
+Medium Metro,75-79,75,Male,2019,38869,955082
+Medium Metro,80-84,80,Male,2019,38949,586627
+Medium Metro,85+,85,Male,2019,74316,518298
+Micropolitan (Nonmetro),1,0,Female,2017,883,155181
+Micropolitan (Nonmetro),1-4,1,Female,2017,170,636408
+Micropolitan (Nonmetro),5-9,5,Female,2017,118,815321
+Micropolitan (Nonmetro),10-14,10,Female,2017,139,838800
+Micropolitan (Nonmetro),15-19,15,Female,2017,320,879189
+Micropolitan (Nonmetro),20-24,20,Female,2017,538,902520
+Micropolitan (Nonmetro),25-29,25,Female,2017,720,824230
+Micropolitan (Nonmetro),30-34,30,Female,2017,941,773745
+Micropolitan (Nonmetro),35-39,35,Female,2017,1247,785877
+Micropolitan (Nonmetro),40-44,40,Female,2017,1695,740755
+Micropolitan (Nonmetro),45-49,45,Female,2017,2590,814661
+Micropolitan (Nonmetro),50-54,50,Female,2017,4270,881780
+Micropolitan (Nonmetro),55-59,55,Female,2017,6792,978795
+Micropolitan (Nonmetro),60-64,60,Female,2017,8909,948479
+Micropolitan (Nonmetro),65-69,65,Female,2017,11243,829406
+Micropolitan (Nonmetro),70-74,70,Female,2017,13884,654315
+Micropolitan (Nonmetro),75-79,75,Female,2017,15912,469172
+Micropolitan (Nonmetro),80-84,80,Female,2017,18763,333403
+Micropolitan (Nonmetro),85+,85,Female,2017,54577,392683
+Micropolitan (Nonmetro),1,0,Female,2018,837,150930
+Micropolitan (Nonmetro),1-4,1,Female,2018,156,633989
+Micropolitan (Nonmetro),5-9,5,Female,2018,93,807258
+Micropolitan (Nonmetro),10-14,10,Female,2018,120,842820
+Micropolitan (Nonmetro),15-19,15,Female,2018,322,873957
+Micropolitan (Nonmetro),20-24,20,Female,2018,495,890892
+Micropolitan (Nonmetro),25-29,25,Female,2018,821,830750
+Micropolitan (Nonmetro),30-34,30,Female,2018,969,771273
+Micropolitan (Nonmetro),35-39,35,Female,2018,1279,794814
+Micropolitan (Nonmetro),40-44,40,Female,2018,1628,742321
+Micropolitan (Nonmetro),45-49,45,Female,2018,2562,805058
+Micropolitan (Nonmetro),50-54,50,Female,2018,4075,850543
+Micropolitan (Nonmetro),55-59,55,Female,2018,6761,969036
+Micropolitan (Nonmetro),60-64,60,Female,2018,9060,959668
+Micropolitan (Nonmetro),65-69,65,Female,2018,11237,841864
+Micropolitan (Nonmetro),70-74,70,Female,2018,14417,677523
+Micropolitan (Nonmetro),75-79,75,Female,2018,16442,492817
+Micropolitan (Nonmetro),80-84,80,Female,2018,18829,340012
+Micropolitan (Nonmetro),85+,85,Female,2018,54034,393301
+Micropolitan (Nonmetro),1,0,Female,2019,860,148695
+Micropolitan (Nonmetro),1-4,1,Female,2019,187,627829
+Micropolitan (Nonmetro),5-9,5,Female,2019,111,803106
+Micropolitan (Nonmetro),10-14,10,Female,2019,128,839838
+Micropolitan (Nonmetro),15-19,15,Female,2019,297,868222
+Micropolitan (Nonmetro),20-24,20,Female,2019,517,881707
+Micropolitan (Nonmetro),25-29,25,Female,2019,723,827819
+Micropolitan (Nonmetro),30-34,30,Female,2019,1068,777609
+Micropolitan (Nonmetro),35-39,35,Female,2019,1310,796259
+Micropolitan (Nonmetro),40-44,40,Female,2019,1682,748390
+Micropolitan (Nonmetro),45-49,45,Female,2019,2533,790283
+Micropolitan (Nonmetro),50-54,50,Female,2019,3935,824319
+Micropolitan (Nonmetro),55-59,55,Female,2019,6681,958227
+Micropolitan (Nonmetro),60-64,60,Female,2019,9404,964574
+Micropolitan (Nonmetro),65-69,65,Female,2019,11443,859049
+Micropolitan (Nonmetro),70-74,70,Female,2019,14683,704246
+Micropolitan (Nonmetro),75-79,75,Female,2019,16803,508194
+Micropolitan (Nonmetro),80-84,80,Female,2019,19181,347670
+Micropolitan (Nonmetro),85+,85,Female,2019,53667,392070
+Micropolitan (Nonmetro),1,0,Male,2017,1125,162584
+Micropolitan (Nonmetro),1-4,1,Male,2017,243,665903
+Micropolitan (Nonmetro),5-9,5,Male,2017,139,852459
+Micropolitan (Nonmetro),10-14,10,Male,2017,202,879062
+Micropolitan (Nonmetro),15-19,15,Male,2017,786,932562
+Micropolitan (Nonmetro),20-24,20,Male,2017,1356,1001587
+Micropolitan (Nonmetro),25-29,25,Male,2017,1799,907651
+Micropolitan (Nonmetro),30-34,30,Male,2017,1974,828336
+Micropolitan (Nonmetro),35-39,35,Male,2017,2321,821847
+Micropolitan (Nonmetro),40-44,40,Male,2017,2712,766308
+Micropolitan (Nonmetro),45-49,45,Male,2017,4059,834451
+Micropolitan (Nonmetro),50-54,50,Male,2017,6536,878705
+Micropolitan (Nonmetro),55-59,55,Male,2017,10668,944271
+Micropolitan (Nonmetro),60-64,60,Male,2017,13973,899848
+Micropolitan (Nonmetro),65-69,65,Male,2017,16380,779077
+Micropolitan (Nonmetro),70-74,70,Male,2017,17849,591501
+Micropolitan (Nonmetro),75-79,75,Male,2017,18672,396320
+Micropolitan (Nonmetro),80-84,80,Male,2017,19287,251060
+Micropolitan (Nonmetro),85+,85,Male,2017,33717,212593
+Micropolitan (Nonmetro),1,0,Male,2018,1128,158036
+Micropolitan (Nonmetro),1-4,1,Male,2018,244,661772
+Micropolitan (Nonmetro),5-9,5,Male,2018,145,844782
+Micropolitan (Nonmetro),10-14,10,Male,2018,188,883345
+Micropolitan (Nonmetro),15-19,15,Male,2018,749,926592
+Micropolitan (Nonmetro),20-24,20,Male,2018,1327,987721
+Micropolitan (Nonmetro),25-29,25,Male,2018,1711,918888
+Micropolitan (Nonmetro),30-34,30,Male,2018,1865,828742
+Micropolitan (Nonmetro),35-39,35,Male,2018,2311,830033
+Micropolitan (Nonmetro),40-44,40,Male,2018,2607,769023
+Micropolitan (Nonmetro),45-49,45,Male,2018,4081,823501
+Micropolitan (Nonmetro),50-54,50,Male,2018,6258,850562
+Micropolitan (Nonmetro),55-59,55,Male,2018,10296,933370
+Micropolitan (Nonmetro),60-64,60,Male,2018,14153,909448
+Micropolitan (Nonmetro),65-69,65,Male,2018,16636,787863
+Micropolitan (Nonmetro),70-74,70,Male,2018,18727,614391
+Micropolitan (Nonmetro),75-79,75,Male,2018,19484,418324
+Micropolitan (Nonmetro),80-84,80,Male,2018,19593,259624
+Micropolitan (Nonmetro),85+,85,Male,2018,34067,215662
+Micropolitan (Nonmetro),1,0,Male,2019,1100,155856
+Micropolitan (Nonmetro),1-4,1,Male,2019,218,655266
+Micropolitan (Nonmetro),5-9,5,Male,2019,136,842174
+Micropolitan (Nonmetro),10-14,10,Male,2019,195,879224
+Micropolitan (Nonmetro),15-19,15,Male,2019,694,921169
+Micropolitan (Nonmetro),20-24,20,Male,2019,1308,975606
+Micropolitan (Nonmetro),25-29,25,Male,2019,1665,918383
+Micropolitan (Nonmetro),30-34,30,Male,2019,1965,838173
+Micropolitan (Nonmetro),35-39,35,Male,2019,2439,831748
+Micropolitan (Nonmetro),40-44,40,Male,2019,2790,776649
+Micropolitan (Nonmetro),45-49,45,Male,2019,3988,807305
+Micropolitan (Nonmetro),50-54,50,Male,2019,5993,828079
+Micropolitan (Nonmetro),55-59,55,Male,2019,10454,924361
+Micropolitan (Nonmetro),60-64,60,Male,2019,14404,912507
+Micropolitan (Nonmetro),65-69,65,Male,2019,16966,800116
+Micropolitan (Nonmetro),70-74,70,Male,2019,19086,640526
+Micropolitan (Nonmetro),75-79,75,Male,2019,20019,431877
+Micropolitan (Nonmetro),80-84,80,Male,2019,20005,267338
+Micropolitan (Nonmetro),85+,85,Male,2019,33705,219959
+NonCore (Nonmetro),1,0,Female,2017,665,101463
+NonCore (Nonmetro),1-4,1,Female,2017,144,422050
+NonCore (Nonmetro),5-9,5,Female,2017,73,548183
+NonCore (Nonmetro),10-14,10,Female,2017,120,574491
+NonCore (Nonmetro),15-19,15,Female,2017,273,551702
+NonCore (Nonmetro),20-24,20,Female,2017,369,492268
+NonCore (Nonmetro),25-29,25,Female,2017,525,507891
+NonCore (Nonmetro),30-34,30,Female,2017,688,491372
+NonCore (Nonmetro),35-39,35,Female,2017,877,514403
+NonCore (Nonmetro),40-44,40,Female,2017,1227,498435
+NonCore (Nonmetro),45-49,45,Female,2017,1931,555521
+NonCore (Nonmetro),50-54,50,Female,2017,3264,624586
+NonCore (Nonmetro),55-59,55,Female,2017,5111,708342
+NonCore (Nonmetro),60-64,60,Female,2017,7016,701068
+NonCore (Nonmetro),65-69,65,Female,2017,8524,623201
+NonCore (Nonmetro),70-74,70,Female,2017,10744,503619
+NonCore (Nonmetro),75-79,75,Female,2017,12480,369026
+NonCore (Nonmetro),80-84,80,Female,2017,14825,261758
+NonCore (Nonmetro),85+,85,Female,2017,40630,298979
+NonCore (Nonmetro),1,0,Female,2018,598,98874
+NonCore (Nonmetro),1-4,1,Female,2018,127,419850
+NonCore (Nonmetro),5-9,5,Female,2018,74,541235
+NonCore (Nonmetro),10-14,10,Female,2018,111,575948
+NonCore (Nonmetro),15-19,15,Female,2018,230,546876
+NonCore (Nonmetro),20-24,20,Female,2018,356,484176
+NonCore (Nonmetro),25-29,25,Female,2018,459,515036
+NonCore (Nonmetro),30-34,30,Female,2018,678,488180
+NonCore (Nonmetro),35-39,35,Female,2018,912,517608
+NonCore (Nonmetro),40-44,40,Female,2018,1171,497426
+NonCore (Nonmetro),45-49,45,Female,2018,1863,547466
+NonCore (Nonmetro),50-54,50,Female,2018,3176,599135
+NonCore (Nonmetro),55-59,55,Female,2018,5122,701348
+NonCore (Nonmetro),60-64,60,Female,2018,6854,708510
+NonCore (Nonmetro),65-69,65,Female,2018,8652,631149
+NonCore (Nonmetro),70-74,70,Female,2018,11046,517060
+NonCore (Nonmetro),75-79,75,Female,2018,12865,384193
+NonCore (Nonmetro),80-84,80,Female,2018,14913,266946
+NonCore (Nonmetro),85+,85,Female,2018,40322,299375
+NonCore (Nonmetro),1,0,Female,2019,564,97552
+NonCore (Nonmetro),1-4,1,Female,2019,122,415348
+NonCore (Nonmetro),5-9,5,Female,2019,77,538290
+NonCore (Nonmetro),10-14,10,Female,2019,100,571859
+NonCore (Nonmetro),15-19,15,Female,2019,275,541730
+NonCore (Nonmetro),20-24,20,Female,2019,383,476624
+NonCore (Nonmetro),25-29,25,Female,2019,515,512785
+NonCore (Nonmetro),30-34,30,Female,2019,633,489745
+NonCore (Nonmetro),35-39,35,Female,2019,925,516329
+NonCore (Nonmetro),40-44,40,Female,2019,1200,500399
+NonCore (Nonmetro),45-49,45,Female,2019,1807,536515
+NonCore (Nonmetro),50-54,50,Female,2019,2807,576528
+NonCore (Nonmetro),55-59,55,Female,2019,5069,692618
+NonCore (Nonmetro),60-64,60,Female,2019,7157,710539
+NonCore (Nonmetro),65-69,65,Female,2019,8733,642756
+NonCore (Nonmetro),70-74,70,Female,2019,11123,533617
+NonCore (Nonmetro),75-79,75,Female,2019,12942,393918
+NonCore (Nonmetro),80-84,80,Female,2019,14972,271731
+NonCore (Nonmetro),85+,85,Female,2019,39728,299725
+NonCore (Nonmetro),1,0,Male,2017,768,106453
+NonCore (Nonmetro),1-4,1,Male,2017,164,442555
+NonCore (Nonmetro),5-9,5,Male,2017,97,574860
+NonCore (Nonmetro),10-14,10,Male,2017,152,603067
+NonCore (Nonmetro),15-19,15,Male,2017,559,602897
+NonCore (Nonmetro),20-24,20,Male,2017,970,568905
+NonCore (Nonmetro),25-29,25,Male,2017,1278,578459
+NonCore (Nonmetro),30-34,30,Male,2017,1403,540872
+NonCore (Nonmetro),35-39,35,Male,2017,1606,551695
+NonCore (Nonmetro),40-44,40,Male,2017,1913,529474
+NonCore (Nonmetro),45-49,45,Male,2017,2830,580537
+NonCore (Nonmetro),50-54,50,Male,2017,4984,631517
+NonCore (Nonmetro),55-59,55,Male,2017,8137,701541
+NonCore (Nonmetro),60-64,60,Male,2017,11002,682939
+NonCore (Nonmetro),65-69,65,Male,2017,13162,605824
+NonCore (Nonmetro),70-74,70,Male,2017,14754,472547
+NonCore (Nonmetro),75-79,75,Male,2017,15576,325804
+NonCore (Nonmetro),80-84,80,Male,2017,15816,206773
+NonCore (Nonmetro),85+,85,Male,2017,25856,166817
+NonCore (Nonmetro),1,0,Male,2018,753,103647
+NonCore (Nonmetro),1-4,1,Male,2018,187,440927
+NonCore (Nonmetro),5-9,5,Male,2018,97,567909
+NonCore (Nonmetro),10-14,10,Male,2018,140,604426
+NonCore (Nonmetro),15-19,15,Male,2018,562,597957
+NonCore (Nonmetro),20-24,20,Male,2018,949,560139
+NonCore (Nonmetro),25-29,25,Male,2018,1181,587638
+NonCore (Nonmetro),30-34,30,Male,2018,1320,539672
+NonCore (Nonmetro),35-39,35,Male,2018,1714,555314
+NonCore (Nonmetro),40-44,40,Male,2018,1873,529001
+NonCore (Nonmetro),45-49,45,Male,2018,2879,572633
+NonCore (Nonmetro),50-54,50,Male,2018,4811,608095
+NonCore (Nonmetro),55-59,55,Male,2018,8134,692244
+NonCore (Nonmetro),60-64,60,Male,2018,11048,688053
+NonCore (Nonmetro),65-69,65,Male,2018,13340,610695
+NonCore (Nonmetro),70-74,70,Male,2018,15086,487002
+NonCore (Nonmetro),75-79,75,Male,2018,16034,340834
+NonCore (Nonmetro),80-84,80,Male,2018,15792,213446
+NonCore (Nonmetro),85+,85,Male,2018,25799,169696
+NonCore (Nonmetro),1,0,Male,2019,689,102338
+NonCore (Nonmetro),1-4,1,Male,2019,174,437168
+NonCore (Nonmetro),5-9,5,Male,2019,100,565666
+NonCore (Nonmetro),10-14,10,Male,2019,181,600076
+NonCore (Nonmetro),15-19,15,Male,2019,570,591181
+NonCore (Nonmetro),20-24,20,Male,2019,898,551858
+NonCore (Nonmetro),25-29,25,Male,2019,1169,588036
+NonCore (Nonmetro),30-34,30,Male,2019,1357,542899
+NonCore (Nonmetro),35-39,35,Male,2019,1737,552412
+NonCore (Nonmetro),40-44,40,Male,2019,2076,532440
+NonCore (Nonmetro),45-49,45,Male,2019,2909,560610
+NonCore (Nonmetro),50-54,50,Male,2019,4521,587393
+NonCore (Nonmetro),55-59,55,Male,2019,7948,682598
+NonCore (Nonmetro),60-64,60,Male,2019,11229,689823
+NonCore (Nonmetro),65-69,65,Male,2019,13449,619115
+NonCore (Nonmetro),70-74,70,Male,2019,15558,503309
+NonCore (Nonmetro),75-79,75,Male,2019,16511,350018
+NonCore (Nonmetro),80-84,80,Male,2019,16085,219171
+NonCore (Nonmetro),85+,85,Male,2019,25964,173920
+Small Metro,1,0,Female,2017,900,171663
+Small Metro,1-4,1,Female,2017,161,698315
+Small Metro,5-9,5,Female,2017,105,883756
+Small Metro,10-14,10,Female,2017,127,897403
+Small Metro,15-19,15,Female,2017,312,983066
+Small Metro,20-24,20,Female,2017,565,1125349
+Small Metro,25-29,25,Female,2017,777,984746
+Small Metro,30-34,30,Female,2017,1025,898889
+Small Metro,35-39,35,Female,2017,1292,883700
+Small Metro,40-44,40,Female,2017,1574,809282
+Small Metro,45-49,45,Female,2017,2511,874204
+Small Metro,50-54,50,Female,2017,4106,932663
+Small Metro,55-59,55,Female,2017,6525,1020087
+Small Metro,60-64,60,Female,2017,8486,985685
+Small Metro,65-69,65,Female,2017,10882,871889
+Small Metro,70-74,70,Female,2017,13293,685552
+Small Metro,75-79,75,Female,2017,15464,488350
+Small Metro,80-84,80,Female,2017,18693,346121
+Small Metro,85+,85,Female,2017,54792,404197
+Small Metro,1,0,Female,2018,879,167177
+Small Metro,1-4,1,Female,2018,141,697437
+Small Metro,5-9,5,Female,2018,115,879912
+Small Metro,10-14,10,Female,2018,137,905230
+Small Metro,15-19,15,Female,2018,319,984663
+Small Metro,20-24,20,Female,2018,518,1118139
+Small Metro,25-29,25,Female,2018,729,991306
+Small Metro,30-34,30,Female,2018,993,903087
+Small Metro,35-39,35,Female,2018,1309,900264
+Small Metro,40-44,40,Female,2018,1628,816861
+Small Metro,45-49,45,Female,2018,2544,867724
+Small Metro,50-54,50,Female,2018,3869,904321
+Small Metro,55-59,55,Female,2018,6522,1015581
+Small Metro,60-64,60,Female,2018,8762,1000624
+Small Metro,65-69,65,Female,2018,10714,888431
+Small Metro,70-74,70,Female,2018,13580,715388
+Small Metro,75-79,75,Female,2018,16119,516708
+Small Metro,80-84,80,Female,2018,18825,355125
+Small Metro,85+,85,Female,2018,54802,406898
+Small Metro,1,0,Female,2019,876,164847
+Small Metro,1-4,1,Female,2019,169,689482
+Small Metro,5-9,5,Female,2019,101,879473
+Small Metro,10-14,10,Female,2019,137,903096
+Small Metro,15-19,15,Female,2019,330,982216
+Small Metro,20-24,20,Female,2019,497,1105955
+Small Metro,25-29,25,Female,2019,681,984541
+Small Metro,30-34,30,Female,2019,983,912487
+Small Metro,35-39,35,Female,2019,1360,907495
+Small Metro,40-44,40,Female,2019,1659,829362
+Small Metro,45-49,45,Female,2019,2487,852580
+Small Metro,50-54,50,Female,2019,3736,880695
+Small Metro,55-59,55,Female,2019,6323,1008073
+Small Metro,60-64,60,Female,2019,8986,1007744
+Small Metro,65-69,65,Female,2019,10943,908610
+Small Metro,70-74,70,Female,2019,13926,747992
+Small Metro,75-79,75,Female,2019,16282,537323
+Small Metro,80-84,80,Female,2019,19359,364459
+Small Metro,85+,85,Female,2019,53659,407341
+Small Metro,1,0,Male,2017,1236,179865
+Small Metro,1-4,1,Male,2017,234,731449
+Small Metro,5-9,5,Male,2017,127,924271
+Small Metro,10-14,10,Male,2017,199,936229
+Small Metro,15-19,15,Male,2017,743,1024910
+Small Metro,20-24,20,Male,2017,1451,1230570
+Small Metro,25-29,25,Male,2017,1802,1057301
+Small Metro,30-34,30,Male,2017,2003,937542
+Small Metro,35-39,35,Male,2017,2278,904110
+Small Metro,40-44,40,Male,2017,2568,815896
+Small Metro,45-49,45,Male,2017,3958,866764
+Small Metro,50-54,50,Male,2017,6228,904265
+Small Metro,55-59,55,Male,2017,9906,960395
+Small Metro,60-64,60,Male,2017,12963,903040
+Small Metro,65-69,65,Male,2017,15296,792862
+Small Metro,70-74,70,Male,2017,17075,607239
+Small Metro,75-79,75,Male,2017,17936,406407
+Small Metro,80-84,80,Male,2017,18842,262034
+Small Metro,85+,85,Male,2017,34833,227024
+Small Metro,1,0,Male,2018,1229,175133
+Small Metro,1-4,1,Male,2018,222,730950
+Small Metro,5-9,5,Male,2018,141,920286
+Small Metro,10-14,10,Male,2018,162,944973
+Small Metro,15-19,15,Male,2018,722,1023625
+Small Metro,20-24,20,Male,2018,1407,1217124
+Small Metro,25-29,25,Male,2018,1837,1066439
+Small Metro,30-34,30,Male,2018,2024,944116
+Small Metro,35-39,35,Male,2018,2356,919479
+Small Metro,40-44,40,Male,2018,2616,824782
+Small Metro,45-49,45,Male,2018,3771,857794
+Small Metro,50-54,50,Male,2018,6116,879635
+Small Metro,55-59,55,Male,2018,10113,956083
+Small Metro,60-64,60,Male,2018,13731,915935
+Small Metro,65-69,65,Male,2018,16090,801565
+Small Metro,70-74,70,Male,2018,17715,636015
+Small Metro,75-79,75,Male,2018,18878,432490
+Small Metro,80-84,80,Male,2018,19104,271379
+Small Metro,85+,85,Male,2018,34842,232202
+Small Metro,1,0,Male,2019,1162,172694
+Small Metro,1-4,1,Male,2019,218,722679
+Small Metro,5-9,5,Male,2019,141,921572
+Small Metro,10-14,10,Male,2019,203,943444
+Small Metro,15-19,15,Male,2019,678,1019563
+Small Metro,20-24,20,Male,2019,1399,1200179
+Small Metro,25-29,25,Male,2019,1740,1059991
+Small Metro,30-34,30,Male,2019,2053,953296
+Small Metro,35-39,35,Male,2019,2388,926216
+Small Metro,40-44,40,Male,2019,2774,837832
+Small Metro,45-49,45,Male,2019,3825,843054
+Small Metro,50-54,50,Male,2019,5803,859309
+Small Metro,55-59,55,Male,2019,9850,949177
+Small Metro,60-64,60,Male,2019,13635,923094
+Small Metro,65-69,65,Male,2019,16051,815556
+Small Metro,70-74,70,Male,2019,18204,666257
+Small Metro,75-79,75,Male,2019,19320,448992
+Small Metro,80-84,80,Male,2019,19418,279803
+Small Metro,85+,85,Male,2019,35073,237544

@@ -1,0 +1,104 @@
+---
+title: "Creating the Final Data - Total Mortality"
+author: "Eugenio Paglino"
+output: html_document
+---
+
+```{r, echo=F, include=F}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+```{r}
+# Loading necessary packages
+library(lubridate)
+library(here)
+library(tidyverse)
+
+# Set seed for the Rmd
+set.seed(42)
+```
+
+```{r}
+# Do not rely on this to completely clean your environment
+# Better to do a full restart of R before running
+rm(list=ls())
+
+i_am('R/cleanMortalityData.Rmd')
+
+inDir <- here('data','input')
+outDir <- here('data','output')
+```
+
+```{r}
+# We define a function to read the CDC WONDER data. We read the different
+# files and combine then by appending rows. We also set missing values for 
+# Suppressed, Missing, and Non Applicable values.
+read_CDC_data <- function(file) {
+  
+  data <- data.table::fread(
+    file,
+    na.strings = c("Missing", "Suppressed", "Not Applicable"),
+    keepLeadingZeros = TRUE,
+    colClasses = c("character")
+  )
+
+  data
+}
+```
+
+```{r}
+# Import historical county-month data downloaded from CDC WONDER
+# https://wonder.cdc.gov/ucd-icd10.html
+# NOTE: County-months with < 10 deaths are censored in these data
+mortData <- read_CDC_data(here(inDir,'CDCMortByMetro','mortByMetro5YrAgeGroups.txt'))
+
+# Setting intuitive names
+mortData <- mortData %>%
+  select('urbanization'='2013 Urbanization',
+         'ageGroup'='Five-Year Age Groups Code',
+         'sex'='Gender',
+         'year'='Year',
+         'deaths'='Deaths',
+         'pop'='Population')
+
+mortData <- mortData %>%
+  filter(!(ageGroup %in% c('85-89','90-94','95-99','100+','NS'))) %>%
+  mutate(across(c(year,deaths,pop), ~ as.integer(.x)))
+```
+
+```{r}
+# Import historical county-month data downloaded from CDC WONDER
+# https://wonder.cdc.gov/ucd-icd10.html
+# NOTE: County-months with < 10 deaths are censored in these data
+mortData10Yr <- read_CDC_data(here(inDir,'CDCMortByMetro','mortByMetro10YrAgeGroups.txt'))
+
+# Setting intuitive names
+mortData10Yr <- mortData10Yr %>%
+  select('urbanization'='2013 Urbanization',
+         'ageGroup'='Ten-Year Age Groups Code',
+         'sex'='Gender',
+         'year'='Year',
+         'deaths'='Deaths',
+         'pop'='Population')
+
+mortData10Yr <- mortData10Yr %>%
+  filter(ageGroup == '85+') %>%
+  mutate(across(c(year,deaths,pop), ~ as.integer(.x)))
+
+mortData <- mortData %>%
+  add_row(mortData10Yr) %>%
+  mutate(startAge=as.integer(str_match(ageGroup,'\\d+')),
+         startAge=if_else(ageGroup=='1',0,startAge)) %>%
+  relocate(startAge,.after = ageGroup) %>%
+  arrange(urbanization,sex,year,startAge)
+```
+
+```{r}
+# We save all the data so that we do not have to repeat this set of 
+# operations each time
+mortData %>% write_csv(here(outDir,'mortDataClean.csv'))
+```
