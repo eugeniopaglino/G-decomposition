@@ -46,204 +46,99 @@ mortData <- read_csv(here(outDir,'mortDataClean.csv'))
 ```
 
 ```{r}
-create_add_data <- function(data,baseline,targetGroup) {
-  
-  addData <- data %>%
-    filter(group %in% c(baseline,targetGroup)) %>%
-    summarise(across(c(deaths,pop), ~ sum(.x)),
-              .by=-c(group,deaths,pop)) %>%
-    mutate(group=targetGroup,
-           type='add')
-  
-  addData
-}
+mortDataByGroup <- mortData %>%
+  rename(nNx=pop,nDx=deaths,group=urbanization) %>%
+  group_by(year,sex) %>%
+  nest()
+```
 
-create_sub_data <- function(data,baseline,targetGroup) {
+```{r}
+testData <- mortDataByGroup$data[[4]]
+baseline <- 'Large Central Metro'
+groups <- testData %>% pull(group)
+ages <- testData %>% pull(ageGroup)
+
+nNx1 <- testData %>%
+  mutate(nNx=if_else(group==baseline,nNx,0)) %>%
+  pull(nNx)
+
+nDx1 <- testData %>%
+  mutate(nDx=if_else(group==baseline,nDx,0)) %>%
+  pull(nDx)
+
+nNx2 <- testData %>%
+  pull(nNx)
+
+nDx2 <- testData %>%
+  pull(nDx)
+```
+
+```{r}
+total_e0 <- function(pars,groups,ages) {
   
-  subData <- data %>%
-    filter(group != targetGroup) %>%
-    summarise(across(c(deaths,pop), ~ sum(.x)),
-              .by=-c(group,deaths,pop)) %>%
-    mutate(group=targetGroup,
-           type='sub')
+  G <- length(unique(groups))
+  A <- length(unique(ages))
+  N <- G*A
   
-  subData
+  split_pars <- split(pars,rep(c('nNx','nDx'),each=N))
+  nNx <- split_pars$nNx
+  nDx <- split_pars$nDx
+  
+  lt_data <- tibble(
+    nNx=nNx,
+    nDx=nDx,
+    group=groups,
+    age=ages
+  )
+  
+  nmx <- lt_data %>%
+    group_by(age) %>%
+    summarise(
+      nNx=sum(nNx),
+      nDx=sum(nDx)
+      ) %>%
+    ungroup() %>%
+    mutate(nmx=nDx/nNx) %>%
+    pull(nmx)
+  
+  e0 <- LTabr(nmx)
+  
+  e0
 }
 ```
 
 ```{r}
-# The data has to be formatted in the following way. The column with the
-# groups has to be named group, the column with the starting age for each
-# interval has to be named
-format_data <- function(data,baseline) {
-  
-  groups <- data %>% filter(group!=baseline) %>% pull(group) %>% unique()
-
-  addData <- map_dfr(groups,~create_add_data(data,baseline,.x))
-  subData <- map_dfr(groups,~create_sub_data(data,baseline,.x))
-  
-  totalData <- data %>%
-    summarise(across(c(deaths,pop), ~ sum(.x)),
-              .by=-c(group,deaths,pop)) %>%
-    mutate(group='Total',
-           type='total')
-  
-  baselineData <- data %>%
-    filter(group == baseline) %>%
-    mutate(group=baseline,
-           type='baseline')
-  
-  formattedData <- data %>% 
-    filter(group!=baseline) %>%
-    mutate(type='single') %>%
-    add_row(baselineData) %>%
-    add_row(addData) %>%
-    add_row(subData) %>%
-    add_row(totalData)
-  
-  formattedData
-  
-}
+total_e0(c(nNx2,nDx2),groups,ages) - total_e0(c(nNx1,nDx1),groups,ages) 
 ```
 
 ```{r}
-prepare_data_for_lt <- function(data) {
-  data <- data %>%
-    arrange(x) %>%
-    select(x,
-           nDx=deaths,
-           nNx=pop) %>%
-    mutate(n=dplyr::lead(x) - x,
-           n=if_else(x==85,Inf,n),
-           nmx=nDx/nNx)
-  data
-}
-```
-
-```{r}
-default_nax <- function(life_table,first_year_m,sex) {
-  x = life_table['x']
-  n = life_table['n']
-  nmx = life_table['nmx']
-  
-  if (x == 0) {
-    if (sex=='Male') {
-      if (first_year_m >= 0.107) {
-          return(0.330)
-      } else {
-        return(0.045 + 2.684*first_year_m)
-      }
-    } else if (sex=='Female') {
-      if (first_year_m >= 0.107) {
-        return(0.350)  
-      } else {
-        return(0.053 + 2.800*first_year_m)
-      }
-    }
-  } else if (x == 1) {
-    if (sex=='Male') {
-      if (first_year_m >= 0.107) {
-          return(1.352)
-      } else {
-        return(1.651 - 2.816*first_year_m)
-      }
-    } else if (sex=='Female') {
-      if (first_year_m >= 0.107) {
-        return(1.361)  
-      } else {
-        return(1.522 - 1.518*first_year_m)
-      }
-    }
-  } else if (x>1 & is.finite(n)) {
-    return(n/2)
-  } else if (is.infinite(n)) {
-    return(1/nmx)
-  }
-}
-```
-
-```{r}
-keyfitz_graduation <- function(lt, .n=5, tol=0.0001) {
-  naxold <- lt %>% pull(nax)
-  diff <- Inf
-  N <- nrow(lt) # Number of age groups 
-  # Iterate until no nax changes by more than tol between iterations
-  while(diff > 0.0001) {
-    naxnew <- (-.n/24 * lag(lt$ndx) + .n/2 * lt$ndx + .n/24 * lead(lt$ndx)) / lt$ndx
-	  naxnew <- c(naxold[1:2], naxnew[c(-1,-2,-N)], (1/lt$nmx)[N])
-	  diff <- max(naxnew - naxold, na.rm=TRUE)
-    naxold <- naxnew
-    lt <- lt %>% mutate(nax = naxnew)
-    lt <- m_to_q_conversion(lt)
-  }
-  lt
-}
-```
-
-```{r}
-q_from_m <- function(m,a,n) {
-  numerator <- n*m
-  denominator <- 1 + (n-a)*m
-  nqx <- numerator/denominator
-  nqx <- if_else(is.infinite(n),1,nqx)
-  return(nqx)
-}
-```
-
-```{r}
-m_to_q_conversion <- function(lt,radix=100000,compute_nqx=T) {
-  
-  if (compute_nqx) {
-    lt <- lt %>%
-      mutate(nqx = q_from_m(nmx,nax,n))
-  }
-  
-  lt <- lt %>%
-    mutate(
-      npx = 1-nqx,
-      lx = lag(radix*cumprod(npx)),
-      lx = if_else(is.na(lx),radix,lx),
-      ndx=nqx*lx
-      ) 
-  lt
-}
-```
-
-```{r}
-create_life_table <- function(data,radix=100000,graduation=F,ltS=NULL,group=NULL) { 
-  
-  sex = data %>% pull(sex) %>% .[1]
-  
-  data <- prepare_data_for_lt(data)
-  
-  lt <- data %>%
-    mutate(
-      nax = apply(
-      data,
-      M=1,
-      default_nax,
-      first_year_m=as.double(data[1,'nmx']),
-      sex=sex
-      )
+# Decomposing this difference with the two methods
+decomp <- tibble(
+  age = rep(ages,2),
+  group = rep(groups,2),
+  pars1 = c(nNx1,nDx1),
+  pars2 = c(nNx2,nDx2),
+  C = horiuchi(
+    func = total_e0,
+    pars1 = pars1,
+    pars2 = pars2,
+    groups = groups,
+    ages = ages,
+    N=10
     )
-    
-  lt <- m_to_q_conversion(lt)
-  
-  if (graduation) lt <- keyfitz_graduation(lt)
-  
-  lt <- m_to_q_conversion(lt,compute_nqx=F)
-  
-  lt <- lt %>%
-    mutate(
-      nLx=(n*npx + nax*nqx)*lx,
-      nLx=if_else(is.infinite(n),lx/nmx,nLx),
-      Tx=rev(cumsum(rev(nLx))),
-      ex=Tx/lx
-      )
-  
-  lt
-}
+)
 ```
+
+```{r}
+decomp %>%
+  group_by(group) %>%
+  summarise(C=sum(C)) %>%
+  ungroup() %>%
+  mutate(Ctot = sum(C))
+```
+
+
+
 
 ```{r}
 compute_add_contribs <- function(data) {
@@ -402,6 +297,66 @@ ggsave(here(figDir,'LEByMetro.png'),LEByMetro,height = 3, width = 7)
 contributions <- e0Data %>% 
   rename(ltvar=e0) %>%
   compute_adj_contribs()
+```
+
+```{r}
+avgContribsFormatted %>%
+  pivot_wider(names_from = sex, values_from = tempex124:tempex1Inf) %>%
+  group_by(raceEthnicity) %>%
+  select(
+    raceEthnicity,
+    year,
+    tempex124_Female,
+    tempex2564_Female,
+    tempex65Inf_Female,
+    tempex1Inf_Female,
+    tempex124_Male,
+    tempex2564_Male,
+    tempex65Inf_Male,
+    tempex1Inf_Male
+    ) %>%
+  gt() %>%
+  cols_label(
+    raceEthnicity='',
+    year='Year',
+    tempex124_Female = '1-24',
+    tempex2564_Female = '25-64',
+    tempex65Inf_Female = '65+',
+    tempex1Inf_Female = '1+',
+    tempex124_Male = '1-24',
+    tempex2564_Male = '25-64',
+    tempex65Inf_Male = '65+',
+    tempex1Inf_Male = '1+'
+    ) %>%
+  fmt_number(
+    columns = tempex124_Female:tempex1Inf_Male,
+    decimals = 3
+  ) %>%
+  tab_spanner(
+    label = 'Females',
+    columns = tempex124_Female:tempex1Inf_Female
+  ) %>%  
+  tab_spanner(
+    label = 'Males',
+    columns = tempex124_Male:tempex1Inf_Male
+  ) %>%  
+  tab_spanner(
+    label = 'Foreign-Born Contributions to Expected Years Lived in the Age Interval for the US Population',
+    columns = tempex124_Female:tempex1Inf_Male
+  ) %>%  
+  cols_width(
+    everything() ~ px(90)
+    ) %>%
+  gtsave(here('figures','contributions.png'),
+       vwidth = 1000,vheight = 2000,zoom=4)
+```
+
+```{r}
+withinContribs %>%
+  write_csv(.,here(outDir,'withinContribs.csv'))
+
+avgContribsFormatted %>%
+  write_csv(.,here(outDir,'avgContribsFormatted.csv'))
 ```
 
 ```{r}
