@@ -123,14 +123,13 @@ compute_contrib_by_age <- function(nNx_mat,nDx_mat,set,baseline,target_group) {
   nDx_without <- apply(nDx_mat[,set_without],M=1,sum)
   nmx_without <- nDx_without/nNx_without
   
-# Decomposing the group contribution with the DemoDecomp methods
-contrib <- stepwise_replacement(
-  func = LTabr,
-  direction = 'both',
-  pars1 = nmx_without,
-  pars2 = nmx_with
-  )
-
+  # Decomposing the group contribution with the DemoDecomp methods
+  contrib <- stepwise_replacement(
+    func = LTabr,
+    direction = 'both',
+    pars1 = nmx_without,
+    pars2 = nmx_with
+    )
 }
 ```
 
@@ -219,92 +218,47 @@ G_decomp_full <- pmap_dfr(
 ```
 
 ```{r}
-G_decomp_full %>%
+contribs_by_age <- G_decomp_full %>%
   mutate(
     group=fct_relevel(
       group,
       c("Large Fringe Metro","Medium Metro","Small Metro",
         "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
-      )
+      ),
+    ageStr = glue('{age}-{age+4}'),
+    ageStr = case_when(
+      age==0 ~ '<1',
+      age==1 ~ '1-4',
+      age==85 ~ '85+',
+      T ~ ageStr
+      ),
+    ageStr = fct_reorder(ageStr,age)
     ) %>%
+  filter(year==2019) %>%
   ggplot() +
-  geom_bar(aes(x=age, y=C, fill=group),stat="identity") +
+  geom_col(aes(y=ageStr, x=C, fill=group),width=0.8) +
   scale_fill_discrete_sequential(palette='SunsetDark') +
-  facet_grid(sex~year) +
-  labs(x='Age',
-       y='Contribution to National Life-Expectancy',
-       title='Decomposition of Contributions to National Life Expectancy by Metro Type and Age',
+  facet_wrap(~sex,ncol=2) +
+  labs(y='',
+       x='Contribution to the Life Expectancy Gap between the US and Large Central Metros (Years)',
        fill='') +
   theme_bw() +
-  theme(legend.position = 'bottom',
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank())
-```
-
-```{r}
-G_decomp_full %>%
-  group_by(year,sex) %>%
-  summarise(C=sum(C))
-```
-
-```{r}
-comparison_plot <- NG_comparisons %>%
-  mutate(
-    group=fct_relevel(
-      group,
-      c("Large Fringe Metro","Medium Metro","Small Metro",
-        "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
-      )
-    ) %>%
-  ggplot() +
-  geom_point(mapping=aes(y=group,x=Cm,shape='Odered Contributions')) +
-  geom_text_repel(mapping=aes(y=group,x=Cm,label=m),nudge_y = 0.3,min.segment.length = 0) +
-  geom_point(mapping=aes(y=group,x=Cfull,shape='Exact')) +
-  geom_point(mapping=aes(y=group,x=Cavg,shape='External Average')) +
-  geom_point(mapping=aes(y=group,x=Cadj,shape='External Average + Adjustment')) +
-  scale_shape_manual(values=15:18,breaks = c('Exact','External Average','External Average + Adjustment','Odered Contributions')) +
-  scale_y_discrete(expand = expansion(mult = 0.25)) +
-  facet_grid(year~sex,switch = 'y') +
-  labs(shape='',
-       x='Contribution',
-       y='') +
-  theme_bw() +
-  theme(legend.position = 'bottom',
-        strip.text.y.left = element_text(angle=0),
-        panel.grid.major.y = element_blank(),
-        panel.grid.minor.y = element_blank())
-
-comparison_plot
-```
-
-```{r}
-ggsave(
-  comparison_plot,
-  file=here('figures','comparison_plot.pdf'),
-  width = 8,
-  height = 8
+  theme(
+    legend.position = 'bottom',
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank()
+    ) +
+  guides(
+    fill=guide_legend(nrow=2)
   )
+
+contribs_by_age
 ```
 
 ```{r}
-contributions_plots <- NG_decomp_full %>%
-  ggplot() +
-  geom_col(mapping=aes(x=year,y=C,fill=group)) +
-  scale_fill_discrete_sequential(palette = 'SunsetDark') +
-  facet_nested(~sex) +
-  labs(x='',
-       fill='',
-       y='Contribution to The Difference in Life Expectancy\nbetween Large Central Metros and the Whole US') +
-  theme_minimal() +
-  theme(panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank(),
-        axis.text.x = element_text(angle=90))
-
-contributions_plots
-```
-
-```{r}
-ggsave(here(figDir,'contributions_plots.png'),contributions_plots,width = 4,height = 4)
+svg(here('figures','contribs_by_age.svg'),width=7,height=6)
+contribs_by_age
+dev.off()
 ```
 
 ```{r}
@@ -368,7 +322,7 @@ horiuchi_decomp_by_age <- pmap_dfr(
 ```
 
 ```{r}
-horiuchi_decomp_by_age %>%
+horiuchi_contribs_by_age <- horiuchi_decomp_by_age %>%
   filter(group!=baseline) %>%
   group_by(year,sex,group,age) %>%
   summarise(C=sum(C)) %>%
@@ -378,194 +332,89 @@ horiuchi_decomp_by_age %>%
       group,
       c("Large Fringe Metro","Medium Metro","Small Metro",
         "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
-      )
+      ),
+    ageStr = glue('{age}-{age+4}'),
+    ageStr = case_when(
+      age==0 ~ '<1',
+      age==1 ~ '1-4',
+      age==85 ~ '85+',
+      T ~ ageStr
+      ),
+    ageStr = fct_reorder(ageStr,age)
     ) %>%
+  filter(year==2019) %>%
   ggplot() +
-  geom_bar(aes(x=age, y=C, fill=group),stat="identity") +
+  geom_col(aes(y=ageStr, x=C, fill=group),width=0.8) +
   scale_fill_discrete_sequential(palette='SunsetDark') +
-  facet_grid(sex~year) +
-  labs(x='Age',
-       y='Contribution to National Life-Expectancy',
-       title='Decomposition of Contributions to National Life Expectancy by Metro Type and Age',
+  facet_wrap(~sex,ncol=2) +
+  labs(y='',
+       x='Contribution to National Life-Expectancy (Years)',
        fill='') +
   theme_bw() +
-  theme(legend.position = 'bottom',
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank())
+  theme(
+    legend.position = 'bottom',
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank()
+    ) +
+  guides(
+    fill=guide_legend(nrow=2)
+  )
+
+horiuchi_contribs_by_age
 ```
 
 ```{r}
-horiuchi_decomp <- horiuchi_decomp_by_age %>%
-  filter(group!=baseline) %>%
-  group_by(year,sex,group) %>%
-  summarise(C=sum(C)) %>%
-  ungroup()
+svg(here('figures','horiuchi_contribs_by_age.svg'),width=7,height=6)
+horiuchi_contribs_by_age
+dev.off()
 ```
 
 ```{r}
-G_decomp <- G_decomp_full %>%
-  group_by(year,sex,group) %>%
-  summarise(C=sum(C)) %>%
-  ungroup()
-```
-
-```{r}
-# Decomposing this difference with the two methods
-ltre_decomp_by_age <- pmap_dfr(
-  list(
-    nNx1 = nNxs1,
-    nNx2 = nNxs2,
-    nDx1 = nDxs1,
-    nDx2 = nDxs2,
-    sex = mort_data_nested$sex,
-    year = mort_data_nested$year
-  ),
-  function(nNx1,nNx2,nDx1,nDx2,sex,year) {
-    tibble(
-      sex = sex,
-      year = year,
-      age = rep(ages,2),
-      group = rep(groups,2),
-      pars1 = c(nNx1,nDx1),
-      pars2 = c(nNx2,nDx2),
-      C = ltre(
-        func = total_e0,
-        pars1 = pars1,
-        pars2 = pars2,
-        groups = groups,
-        ages = ages,
-        N=5
-        )
-      )
+res <- microbenchmark::microbenchmark(
+  G_decomp_full <- pmap_dfr(
+  list(nNx_mat=nNx_mats,
+       nDx_mat=nDx_mats,
+       sex=mort_data_nested$sex,
+       year=mort_data_nested$year),
+  function(nNx_mat,nDx_mat,year,sex) {
+    compute_G_decomp(nNx_mat,nDx_mat,baseline,contrib_groups,type='full') %>%
+      mutate(year=year,sex=sex)
     }
-  )
-```
-
-```{r}
-ltre_decomp <- ltre_decomp_by_age %>%
-  filter(group!=baseline) %>%
-  group_by(year,sex,group) %>%
-  summarise(C=sum(C)) %>%
-  ungroup()
-```
-
-```{r}
-# Decomposing this difference with the two methods
-stepwise_decomp_by_age <- pmap_dfr(
-  list(
-    nNx1 = nNxs1,
-    nNx2 = nNxs2,
-    nDx1 = nDxs1,
-    nDx2 = nDxs2,
-    sex = mort_data_nested$sex,
-    year = mort_data_nested$year
   ),
-  function(nNx1,nNx2,nDx1,nDx2,sex,year) {
-    tibble(
-      sex = sex,
-      year = year,
-      age = rep(ages,2),
-      group = rep(groups,2),
-      pars1 = c(nNx1,nDx1),
-      pars2 = c(nNx2,nDx2),
-      C = stepwise_replacement(
-        func = total_e0,
-        direction = 'both',
-        pars1 = pars1,
-        pars2 = pars2,
-        groups = groups,
-        ages = ages
+  horiuchi_decomp_by_age <- pmap_dfr(
+    list(
+      nNx1 = nNxs1,
+      nNx2 = nNxs2,
+      nDx1 = nDxs1,
+      nDx2 = nDxs2,
+      sex = mort_data_nested$sex,
+      year = mort_data_nested$year
+    ),
+    function(nNx1,nNx2,nDx1,nDx2,sex,year) {
+      tibble(
+        sex = sex,
+        year = year,
+        age = rep(ages,2),
+        group = rep(groups,2),
+        pars1 = c(nNx1,nDx1),
+        pars2 = c(nNx2,nDx2),
+        C = horiuchi(
+          func = total_e0,
+          pars1 = pars1,
+          pars2 = pars2,
+          groups = groups,
+          ages = ages,
+          N=5
+          )
         )
-      )
-    }
+      }
+    ),
+  times = 5
   )
 ```
 
 ```{r}
-stepwise_decomp <- stepwise_decomp_by_age %>%
-  filter(group!=baseline) %>%
-  group_by(year,sex,group) %>%
-  summarise(C=sum(C)) %>%
-  ungroup()
+save(res,file=here(outDir,'age_specific_res.RData'))
 ```
 
-```{r}
-decomp_methods_comparisons <- NG_decomp_full %>%
-  left_join(horiuchi_decomp %>% rename(Choriuchi=C),by=c('year','sex','group')) %>%
-  left_join(ltre_decomp %>% rename(Cltre=C),by=c('year','sex','group')) %>%
-  left_join(stepwise_decomp %>% rename(Cstepwise=C),by=c('year','sex','group'))
-```
-
-```{r}
-decomp_methods_comparison_plot <- decomp_methods_comparisons %>%
-  mutate(
-    group=fct_relevel(
-      group,
-      c("Large Fringe Metro","Medium Metro","Small Metro",
-        "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
-      )
-    ) %>%
-  ggplot() +
-  geom_point(mapping=aes(y=group,x=C,shape='G-Decomposition')) +
-  geom_point(mapping=aes(y=group,x=Cstepwise,shape='Stepwise')) +
-  geom_point(mapping=aes(y=group,x=Choriuchi,shape='Horiuchi')) +
-  geom_point(mapping=aes(y=group,x=Cltre,shape='LTRE')) +
-  facet_grid(year~sex,switch = 'y') +
-  scale_shape_manual(values=21:24) +
-  labs(shape='',
-       x='Contribution',
-       y='') +
-  theme_bw() +
-  theme(legend.position = 'bottom',
-        strip.text.y.left = element_text(angle=0),
-        panel.grid.major.y = element_blank(),
-        panel.grid.minor.y = element_blank())
-
-decomp_methods_comparison_plot
-```
-
-```{r}
-ggsave(
-  decomp_methods_comparison_plot,
-  file=here('figures','decomp_methods_comparison_plot.pdf'),
-  width = 6,
-  height = 6
-  )
-```
-
-```{r}
-decomp_methods_comparison_no_stepwise_plot <- decomp_methods_comparisons %>%
-  mutate(
-    group=fct_relevel(
-      group,
-      c("Large Fringe Metro","Medium Metro","Small Metro",
-        "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
-      )
-    ) %>%
-  ggplot() +
-  geom_point(mapping=aes(y=group,x=C,shape='G-Decomposition')) +
-  geom_point(mapping=aes(y=group,x=Choriuchi,shape='Horiuchi')) +
-  geom_point(mapping=aes(y=group,x=Cltre,shape='LTRE')) +
-  facet_grid(year~sex,switch = 'y') +
-  scale_shape_manual(values=21:23) +
-  labs(shape='',
-       x='Contribution',
-       y='') +
-  theme_bw() +
-  theme(legend.position = 'bottom',
-        strip.text.y.left = element_text(angle=0),
-        panel.grid.major.y = element_blank(),
-        panel.grid.minor.y = element_blank())
-
-decomp_methods_comparison_no_stepwise_plot
-```
-
-```{r}
-ggsave(
-  decomp_methods_comparison_no_stepwise_plot,
-  file=here('figures','decomp_methods_comparison_no_stepwise_plot.pdf'),
-  width = 6,
-  height = 6
-  )
-```
 

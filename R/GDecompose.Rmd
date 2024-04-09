@@ -19,6 +19,7 @@ library(here)
 library(colorspace)
 library(patchwork)
 library(ggh4x)
+library(gt)
 library(ggrepel)
 library(DemoTools)
 library(DemoDecomp)
@@ -425,6 +426,38 @@ ggsave(
 ```
 
 ```{r}
+NG_decomp_full <- NG_decomp_full %>%
+  mutate(
+    group=fct_relevel(
+      group,
+      c("Large Fringe Metro","Medium Metro","Small Metro",
+        "Micropolitan (Nonmetro)","NonCore (Nonmetro)")
+      )
+    ) %>%
+  arrange(sex,group)
+```
+
+```{r}
+NG_decomp_full %>%
+  pivot_wider(names_from = year,values_from = C) %>%
+  group_by(sex) %>%
+  gt() %>%
+  cols_label(
+    group='Metro Category',
+    sex=''
+  ) %>%
+  fmt_number(
+    `2017`:`2019`,
+    decimals = 3
+    ) %>%
+  tab_spanner(
+    `2017`:`2019`,
+    label='Contribution to National Life Expectancy'
+  ) %>%
+  gtsave(.,filename = here('figures','contribs_table.docx'))
+```
+
+```{r}
 contributions_plots <- NG_decomp_full %>%
   ggplot() +
   geom_col(mapping=aes(x=year,y=C,fill=group)) +
@@ -671,5 +704,89 @@ ggsave(
   width = 6,
   height = 6
   )
+```
+
+```{r}
+res <- microbenchmark::microbenchmark(
+  
+  NG_decomp_full <- pmap_dfr(
+    list(nNx_mat=nNx_mats,
+         nDx_mat=nDx_mats,
+         sex=mort_data_nested$sex,
+         year=mort_data_nested$year),
+    function(nNx_mat,nDx_mat,year,sex) {
+      compute_NG_decomp(nNx_mat,nDx_mat,baseline,contrib_groups,type='full') %>%
+        mutate(year=year,sex=sex)
+      }
+    )
+  ,
+  
+  horiuchi_decomp_by_age <- pmap_dfr(
+    list(
+      nNx1 = nNxs1,
+      nNx2 = nNxs2,
+      nDx1 = nDxs1,
+      nDx2 = nDxs2,
+      sex = mort_data_nested$sex,
+      year = mort_data_nested$year
+    ),
+    function(nNx1,nNx2,nDx1,nDx2,sex,year) {
+      tibble(
+        sex = sex,
+        year = year,
+        age = rep(ages,2),
+        group = rep(groups,2),
+        pars1 = c(nNx1,nDx1),
+        pars2 = c(nNx2,nDx2),
+        C = horiuchi(
+          func = total_e0,
+          pars1 = pars1,
+          pars2 = pars2,
+          groups = groups,
+          ages = ages,
+          N=5
+          )
+        )
+      }
+    )
+  
+  ,
+  
+  ltre_decomp_by_age <- pmap_dfr(
+  list(
+    nNx1 = nNxs1,
+    nNx2 = nNxs2,
+    nDx1 = nDxs1,
+    nDx2 = nDxs2,
+    sex = mort_data_nested$sex,
+    year = mort_data_nested$year
+  ),
+  function(nNx1,nNx2,nDx1,nDx2,sex,year) {
+    tibble(
+      sex = sex,
+      year = year,
+      age = rep(ages,2),
+      group = rep(groups,2),
+      pars1 = c(nNx1,nDx1),
+      pars2 = c(nNx2,nDx2),
+      C = ltre(
+        func = total_e0,
+        pars1 = pars1,
+        pars2 = pars2,
+        groups = groups,
+        ages = ages,
+        N=5
+        )
+      )
+    }
+  )
+  
+  ,
+  times = 5
+  )
+```
+
+```{r}
+save(res,file=here(outDir,'group_specific_res.RData'))
 ```
 
