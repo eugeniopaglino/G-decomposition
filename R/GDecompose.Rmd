@@ -34,7 +34,7 @@ set.seed(42)
 # Better to do a full restart of R before running
 rm(list=ls())
 
-i_am('R/decompose.Rmd')
+i_am('R/GDecompose.Rmd')
 
 inDir <- here('data','input')
 outDir <- here('data','output')
@@ -460,6 +460,7 @@ NG_decomp_full %>%
 ```{r}
 contributions_plots <- NG_decomp_full %>%
   ggplot() +
+  geom_hline(yintercept=0) +
   geom_col(mapping=aes(x=year,y=C,fill=group)) +
   scale_fill_discrete_sequential(palette = 'SunsetDark') +
   facet_nested(~sex) +
@@ -643,7 +644,7 @@ decomp_methods_comparison_plot <- decomp_methods_comparisons %>%
       )
     ) %>%
   ggplot() +
-  geom_point(mapping=aes(y=group,x=C,shape='G-Decomposition')) +
+  geom_point(mapping=aes(y=group,x=C,shape='Groupwise')) +
   geom_point(mapping=aes(y=group,x=Cstepwise,shape='Stepwise')) +
   geom_point(mapping=aes(y=group,x=Choriuchi,shape='Horiuchi')) +
   geom_point(mapping=aes(y=group,x=Cltre,shape='LTRE')) +
@@ -680,7 +681,7 @@ decomp_methods_comparison_no_stepwise_plot <- decomp_methods_comparisons %>%
       )
     ) %>%
   ggplot() +
-  geom_point(mapping=aes(y=group,x=C,shape='G-Decomposition')) +
+  geom_point(mapping=aes(y=group,x=C,shape='Groupwise')) +
   geom_point(mapping=aes(y=group,x=Choriuchi,shape='Horiuchi')) +
   geom_point(mapping=aes(y=group,x=Cltre,shape='LTRE')) +
   facet_grid(year~sex,switch = 'y') +
